@@ -1,5 +1,5 @@
 ;设置规则标志位
-surge_ruleset=📺 GlobalTV,RULE-SET,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/GlobalMedia.list,GlobalMedia
+surge_ruleset=📺 GlobalTV,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/GlobalMedia.list,GlobalMedia
 surge_ruleset=🍃 Proxy,https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/foreign.list
 surge_ruleset=🍎 Apple,https://raw.githubusercontent.com/tomdegnan/clashrule/master/AppleList
 surge_ruleset=📰 AppleNews,https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-News.list
