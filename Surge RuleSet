@@ -1,10 +1,10 @@
 ;设置规则标志位
-surge_ruleset=📺 GlobalTV,https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/GlobalMedia.list,GlobalMedia
-surge_ruleset=🍃 Proxy,https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/foreign.list
-surge_ruleset=🍎 Apple,https://raw.githubusercontent.com/tomdegnan/clashrule/master/AppleList
-surge_ruleset=📰 AppleNews,https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/Apple-News.list
-surge_ruleset=🍂 Domestic,https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Surge/Basic/CN.list
+surge_ruleset=📺 Streaming,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list
+surge_ruleset=🍃 Proxy,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list
+surge_ruleset=🍎 Apple,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list
+surge_ruleset=🍂 Domestic,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
 surge_ruleset=🍂 Domestic,[]GEOIP,CN
+surge_ruleset=🍂 Domestic,https://raw.githubusercontent.com/tomdegnan/clashrule/master/Wifilogin
 surge_ruleset=☁️ Others,[]MATCH
 ;设置规则标志位
 
@@ -12,7 +12,6 @@ surge_ruleset=☁️ Others,[]MATCH
 custom_proxy_group=🍃 Proxy`select`.*
 custom_proxy_group=🍂 Domestic`select`[]DIRECT`[]🍃 Proxy`
 custom_proxy_group=🍎 Apple`select`[]🍂 Domestic`[]🍃 Proxy`
-custom_proxy_group=📰 AppleNews`select`[]🍂 Domestic`[]🍃 Proxy`
-custom_proxy_group=📺 GlobalTV`select`[]🍃 Proxy`.*
+custom_proxy_group=📺 Streaming`select`[]🍃 Proxy`.*
 custom_proxy_group=☁️ Others`select`[]🍃 Proxy`[]DIRECT`
 ;设置分组标志位
