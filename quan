@@ -14,9 +14,9 @@ address=/mb3admin.com/132.226.22.242
 
 [policy]
 static=Apple, direct, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
-static=Netflix, proxy, server-tag-regex= (.*), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netflix_Letter.png
-static=YouTube, proxy, server-tag-regex= (.*), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/YouTube.png
-static=Hulu, proxy, server-tag-regex= (.*), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hulu.png
+static=Netflix, proxy, server-tag-regex=(.*), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netflix_Letter.png
+static=YouTube, proxy, server-tag-regex=(.*), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/YouTube.png
+static=Hulu, proxy, server-tag-regex=(.*), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hulu.png
 static=Final, proxy, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
 
 
