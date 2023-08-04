@@ -1,0 +1,104 @@
+;预配置作者
+;毒奶博主
+;limbopro.xyz
+;02.19.2021 更新   
+;https://t.me/limboprossr 关注更新
+;https://t.me/Adblock4limbo 群组反馈与讨论交流
+
+[general]
+
+#解析器作者 @XIAO_KOP 
+resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/limbopro/QuantumultX/master/Scripts/IP_API.js
+
+
+[dns]
+server=223.5.5.5
+server=114.114.114.114
+server=119.29.29.29
+server=8.8.8.8
+address=/mb3admin.com/132.226.22.242
+
+[policy]
+static=TikTok, direct, proxy, reject, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png
+static=📲 社交媒体, 🎥 其他国外流媒体, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png
+static=🍎 苹果服务, direct, 🎥 其他国外流媒体, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
+static=🎥 Netflix, 🎥 其他国外流媒体, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netflix_Letter.png
+static=🎥 其他国外流媒体, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/StreamingSE.png
+static=🛑 广告拦截, reject, proxy, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Advertising.png
+static=🐟 Final, 🎥 其他国外流媒体, proxy, direct, 🛑 广告拦截, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
+
+
+[server_remote]
+https://suo.yt/n6kBRQa#emoji=1&in=标准, tag=YTOO, img-url=books.vertical.circle.fill.system, update-interval=172800, opt-parser=true, enabled=true
+https://api.prprcloud.life/ss/111936/50FKNMjvxh/, tag=PrPr, img-url=chart.bar.doc.horizontal.system, update-interval=172800, opt-parser=false, enabled=true
+
+[filter_remote]
+https://limbopro.xyz/Adblock4limbo.list, tag=毒奶特供, force-policy=🛑 广告拦截, enabled=true
+#https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=野比去广告（稳定版）, force-policy=🛑 广告拦截, enabled=false
+#https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRuleTest.list, tag=野比去广告（测试版）, force-policy=🛑 广告拦截, enabled=false
+https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt, tag=野比(4W+), force-policy=🛑 广告拦截, update-interval=172800, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block_Plus.txt, tag=野比(6W+), force-policy=🛑 广告拦截, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/Netflix.list, tag=Netflix, force-policy=🎥 Netflix, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Streaming.list, tag=其他国外流媒体, force-policy=🎥 其他国外流媒体, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Global.list, tag=社交媒体, force-policy=📲 社交媒体, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/Apple.list, tag=苹果服务, force-policy=🍎 苹果服务, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/China.list, tag=大陆媒体, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list, tag=GEOIP(CN), enabled=true
+
+https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list, tag=TikTok, force-policy=TikTok, update-interval=86400, opt-parser=false, enabled=true
+[rewrite_remote]
+https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/QX.snippet, tag=Sub-Store, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf, tag=微信小程序去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Bilibili.conf, tag=B站增强, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf, tag=微博国际版去广告, update-interval=172800, opt-parser=false, enabled=true
+https://subweb.s3.fr-par.scw.cloud/Module/embyUnlocked.conf, tag=Emby, update-interval=172800, opt-parser=false, enabled=false
+https://limbopro.xyz/Adblock4limbo.conf, tag=毒奶特供, update-interval=172800, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=DivineEngine (Youtube AdsBlock), update-interval=86400, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=DivineEngine (Advertising), update-interval=172800, opt-parser=false, enabled=true
+#https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf, tag=ConnersHua （DivineEngine Rewrite）, enabled=true
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag=NoByDa（lhie1 Rewrite）, update-interval=86400, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf, tag=NoByDa（NoByDa Rewrite）, update-interval=86400, opt-parser=false, enabled=false
+
+
+[server_local]
+
+
+
+
+
+
+
+
+
+
+
+
+[filter_local]
+host, mb3admin.com, direct
+host, mb3admin.com, direct
+host, mb3admin.com, direct
+geoip, cn, direct
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 192.168.0.0/16, direct
+ip-cidr, 224.0.0.0/24, direct
+final, 🐟 Final
+
+
+[rewrite_local]
+(?<=&mcc_mnc=)4 url 307 2
+^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) url 302  $1$3
+(?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&) url 307 17
+(?<=_region=)CN(?=&) url 307 US
+
+[task_local]
+event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/disney-ui-check.js, tag=Disneyᐩ 查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png, enabled=true
+event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=流媒体-解锁查询, img-url=checkmark.seal.system, enabled=true
+
+[mitm]
+passphrase = ADC7F7CA
+p12 = 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
+
+hostname = -*snssdk.com, -*amemv.com
