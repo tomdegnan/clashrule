@@ -1,13 +1,6 @@
-;预配置作者
-;毒奶博主
-;limbopro.xyz
-;02.19.2021 更新   
-;https://t.me/limboprossr 关注更新
-;https://t.me/Adblock4limbo 群组反馈与讨论交流
 
 [general]
 
-#解析器作者 @XIAO_KOP 
 resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
 geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/limbopro/QuantumultX/master/Scripts/IP_API.js
 
@@ -20,38 +13,26 @@ server=8.8.8.8
 address=/mb3admin.com/132.226.22.242
 
 [policy]
-static=TikTok, direct, proxy, reject, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/TikTok.png
-static=📲 社交媒体, 🎥 其他国外流媒体, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Global.png
-static=🍎 苹果服务, direct, 🎥 其他国外流媒体, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
-static=🎥 Netflix, 🎥 其他国外流媒体, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netflix_Letter.png
-static=🎥 其他国外流媒体, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/StreamingSE.png
-static=🛑 广告拦截, reject, proxy, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Advertising.png
-static=🐟 Final, 🎥 其他国外流媒体, proxy, direct, 🛑 广告拦截, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
+static=Apple, direct, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
+static=Netflix, proxy, 🇺🇸 标准 专线 美国 04, 🇺🇸 标准 专线 美国 03, 🇺🇸 标准 专线 美国 02, 🇺🇸 标准 专线 美国 01, 🇺🇸 标准 专线 美国 06, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netflix_Letter.png
+static=YouTube, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/YouTube.png
+static=Hulu, proxy, 🇺🇸 标准 专线 美国 04, 🇺🇸 标准 专线 美国 03, 🇺🇸 标准 专线 美国 02, 🇺🇸 标准 专线 美国 01, 🇺🇸 标准 专线 美国 06, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hulu.png
+static=Final, proxy, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
 
 
 [server_remote]
-订阅链接, tag=YTOO, img-url=books.vertical.circle.fill.system, update-interval=172800, opt-parser=true, enabled=true
-订阅链接, tag=PrPr, img-url=chart.bar.doc.horizontal.system, update-interval=172800, opt-parser=false, enabled=true
+https://suo.yt/n6kBRQa, tag=YTOO, img-url=books.vertical.circle.fill.system, update-interval=172800, opt-parser=true, enabled=true
+https://api.prprcloud.life/ss/111936/50FKNMjvxh/, tag=PrPr, img-url=chart.bar.doc.horizontal.system, update-interval=172800, opt-parser=false, enabled=true
 
 [filter_remote]
-https://limbopro.xyz/Adblock4limbo.list, tag=毒奶特供, force-policy=🛑 广告拦截, enabled=true
-#https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=野比去广告（稳定版）, force-policy=🛑 广告拦截, enabled=false
-#https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRuleTest.list, tag=野比去广告（测试版）, force-policy=🛑 广告拦截, enabled=false
-https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block.txt, tag=野比(4W+), force-policy=🛑 广告拦截, update-interval=172800, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/NobyDa/ND-AD/master/QuantumultX/AD_Block_Plus.txt, tag=野比(6W+), force-policy=🛑 广告拦截, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/Netflix.list, tag=Netflix, force-policy=🎥 Netflix, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Streaming.list, tag=其他国外流媒体, force-policy=🎥 其他国外流媒体, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Global.list, tag=社交媒体, force-policy=📲 社交媒体, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/Apple.list, tag=苹果服务, force-policy=🍎 苹果服务, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/Netflix.list, tag=Netflix, force-policy=Netflix, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/Hulu.list, tag=Hulu, force-policy=Hulu, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/YouTube.list, tag=YouTube, force-policy=YouTube, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/Apple.list, tag=Apple, force-policy=Apple, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/China.list, tag=大陆媒体, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list, tag=GEOIP(CN), enabled=true
 
-https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list, tag=TikTok, force-policy=TikTok, update-interval=86400, opt-parser=false, enabled=true
 [rewrite_remote]
-https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/QX.snippet, tag=Sub-Store, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf, tag=微信小程序去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Bilibili.conf, tag=B站增强, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf, tag=微博国际版去广告, update-interval=172800, opt-parser=false, enabled=true
 https://subweb.s3.fr-par.scw.cloud/Module/embyUnlocked.conf, tag=Emby, update-interval=172800, opt-parser=false, enabled=false
 https://limbopro.xyz/Adblock4limbo.conf, tag=毒奶特供, update-interval=172800, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=DivineEngine (Youtube AdsBlock), update-interval=86400, opt-parser=false, enabled=false
@@ -84,7 +65,7 @@ ip-cidr, 127.0.0.0/8, direct
 ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
-final, 🐟 Final
+final, Final
 
 
 [rewrite_local]
