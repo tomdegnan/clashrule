@@ -30,7 +30,7 @@ static=🐟 Final, 🎥 其他国外流媒体, proxy, direct, 🛑 广告拦截,
 
 
 [server_remote]
-https://suo.yt/n6kBRQa#emoji=1&in=标准, tag=YTOO, img-url=books.vertical.circle.fill.system, update-interval=172800, opt-parser=true, enabled=true
+https://suo.yt/n6kBRQa, tag=YTOO, img-url=books.vertical.circle.fill.system, update-interval=172800, opt-parser=true, enabled=true
 https://api.prprcloud.life/ss/111936/50FKNMjvxh/, tag=PrPr, img-url=chart.bar.doc.horizontal.system, update-interval=172800, opt-parser=false, enabled=true
 
 [filter_remote]
