@@ -14,15 +14,15 @@ address=/mb3admin.com/132.226.22.242
 
 [policy]
 static=Apple, direct, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Apple.png
-static=Netflix, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netflix_Letter.png
-static=YouTube, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/YouTube.png
-static=Hulu, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hulu.png
+static=Netflix, proxy, server-tag-regex=（.*), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netflix_Letter.png
+static=YouTube, proxy, server-tag-regex=（.*), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/YouTube.png
+static=Hulu, proxy, server-tag-regex=（.*), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Hulu.png
 static=Final, proxy, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Final.png
 
 
 [server_remote]
-链接, tag=YTOO, img-url=books.vertical.circle.fill.system, update-interval=172800, opt-parser=true, enabled=true
-链接, tag=PrPr, img-url=chart.bar.doc.horizontal.system, update-interval=172800, opt-parser=false, enabled=true
+https://api.stentvessel.top/sub?target=quanx&list=true&config=https%3A%2F%2Fsubweb.s3.fr-par.scw.cloud%2FRemoteConfig%2Fcustomized%2Fytoo.ini&emoji=true&url=https%3A%2F%2Fapi.ytoo.xyz%2Fosubscribe.php%3Fsid%3D16927%26token%3DPZ2pSdY72YOQ%26sip002%3D1, tag=YTOO, img-url=books.vertical.circle.fill.system, update-interval=172800, opt-parser=true, enabled=true
+https://api.prprcloud.life/ss/111936/50FKNMjvxh/, tag=PrPr, img-url=chart.bar.doc.horizontal.system, update-interval=172800, opt-parser=false, enabled=true
 
 [filter_remote]
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/Netflix.list, tag=Netflix, force-policy=Netflix, enabled=true
