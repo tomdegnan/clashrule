@@ -19,6 +19,7 @@ ruleset=AppleMusic,https://raw.githubusercontent.com/tomdegnan/clashrule/master/
 ruleset=代理,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list
 ruleset=奈飞,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list
 ruleset=ChatGPT,https://raw.githubusercontent.com/tomdegnan/clashrule/master/ChatGPT.list
+ruleset=ChatGPT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Peacock.list
 ruleset=代理,https://raw.githubusercontent.com/NZESupB/Profile/main/Rule/Download.list
 ruleset=代理,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list
 ruleset=代理,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
